@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 a = 0
 b = 6
 y_0 = 1
-n = 100  # number of steps between each integer point
+n = 100  # number of steps between each integer 
 
 def f(x, y):
     return x * (1 + x**2) / y**2
