@@ -46,7 +46,6 @@ print(f"Interpolated value at x = {x}: {interpolated_value3}")
 def fx_3(x):
     return math.exp(2*x)
 
-# Generate points for plotting
 x_plot = np.linspace(min(x_points), max(x_points), 100)
 y_plot_lagrange = [lagrange_interpolation(xi, x_points, y_points) for xi in x_plot]
 y_plot_actual = [fx_3(xi) for xi in x_plot]
