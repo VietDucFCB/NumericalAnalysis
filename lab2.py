@@ -18,7 +18,6 @@ def lagrange_interpolation(x, x_points, y_points):
 def fx(x):
     return math.cos(x)
 
-# Example usage for questions 1 and 2:
 x_points = [0, 0.6]
 y_points = [fx(0), fx(0.6)]
 x = 0.45
