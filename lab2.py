@@ -59,4 +59,5 @@ plt.ylabel('y')
 plt.title('Comparison of Lagrange Interpolation and Actual Function')
 plt.legend()
 plt.grid(True)
+
 plt.show()
