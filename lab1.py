@@ -8,7 +8,6 @@ n = 100
 
 def f(x, y):
     return x * (1 + x**2) / y**2
-
 deltaX = 1 / n  # step size for each unit interval
 
 y_values = np.zeros(7)  # Array to store y0 to y6
