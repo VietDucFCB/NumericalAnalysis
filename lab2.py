@@ -39,7 +39,6 @@ print("Absolute error:", abs(true_value - interpolated_value2))
 x = 1.35
 x_points = [1.1, 1.2, 1.3, 1.4]
 y_points = [9, 11, 13, 16]
-
 interpolated_value3 = lagrange_interpolation(x, x_points, y_points)
 print(f"Interpolated value at x = {x}: {interpolated_value3}")
 
